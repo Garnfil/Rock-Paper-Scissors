@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Rock Paper Scissors</title>
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<!-- START CONTAINER -->
+	<div class="start-container">
+		<div class="start-content">
+			<h1>ROCK. PAPER. SCISSORS.</h1>
+			<button class="start-game">Start Game</button>
+		</div>
+	</div>
+	
+	<!-- MAIN CONTAINER -->
+  <div class="main-container">
+  		<div class="score-container">
+  			<div>
+  				<h1>ROCK</h1>
+  				<h1>PAPER</h1>
+  				<h1>SCISSORS</h1>
+  			</div>
+  		</div>
+  		<div class="game-container">
+  			<button onclick="onChoice('scissor')" class="pick"><img src="scissor.png" alt=""></button>
+  			<button onclick="onChoice('rock')" class="pick"><img src="rock.png" alt=""></button>
+  			<button onclick="onChoice('paper')" class="pick"><img src="paper.png" alt=""></button>
+  		</div>
+  </div>
+  
+  
+  <!-- BATTLE AREA -->
+  <div class="battle-area">
+
+  		<h1 class="message"></h1>
+  		<div class="battle-ground">
+  		    
+  		</div>
+  		<div class="buttons">
+  		  <button class="again-button">PLAY AGAIN</button>
+  		  <button class="rules">RULES</button>
+  		</div>
+  </div>
+  
+  
+  <script src="main.js"></script>
+</body>
+</html>
